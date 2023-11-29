@@ -82,6 +82,13 @@ html, body{
     transition: 200ms ease-in;
 }
 
+.nav-menu li>i{
+
+    margin-top: 10pxs;
+    color: white;
+    font-size: 22px;
+} 
+
 
 /* hearder section end  */
 

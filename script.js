@@ -24,3 +24,22 @@ console.log(tabContent);
 
 
 }
+
+
+let mode= document.getElementById("mode");
+console.log(mode);
+
+let btn= 0;
+mode.addEventListener("click", ()=>{
+
+    if(btn == 0){
+
+        document.body.style.backgroundColor=" rgb(218, 213, 213)"
+    }
+
+    else{
+
+        document.body.style.backgroundColor= "#171717";
+    }
+
+})
