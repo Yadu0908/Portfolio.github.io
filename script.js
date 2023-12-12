@@ -26,20 +26,29 @@ console.log(tabContent);
 }
 
 
-let mode= document.getElementById("mode");
-console.log(mode);
+const switchMode= document.querySelector('#mode');
 
-let btn= 0;
-mode.addEventListener("click", ()=>{
+console.log(switchMode);
 
-    if(btn == 0){
 
-        document.body.style.backgroundColor=" rgb(218, 213, 213)"
-    }
+let value= true;
 
-    else{
+switchMode.addEventListener('click', ()=>{
+
+    if(value = false){
 
         document.body.style.backgroundColor= "#171717";
+        document.body.style.color= "#fff";
+        value= true;
     }
+    
+    else{
 
-})
+        document.body.style.backgroundColor= "rgb(218, 213, 213)";
+        document.body.style.color= "Black";
+        value = false;
+
+
+
+    }
+});
